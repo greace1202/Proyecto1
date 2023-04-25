@@ -14,15 +14,19 @@
     <body>
         <h1>Contactos</h1>
         <%@include file="Menu.jsp" %>
-         <h2>¿Que es Lorem Ipsum?</h2>
-        <p>What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            paragraphs
-            words
-            bytes
-            lists
-            Start with 'Lorem
-            ipsum dolor sit amet...'
-        </p>
+        <form>
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+            <br>
+            <label>Referencia</label>
+            <input type="text" name="referencia">
+            <br>
+            <label>Mensaje</label>
+            <<textarea name="mensaje" rows="5" cols="10"></textarea>
+            <br>
+            <input type="submit">
+            
+            
+        </form>
     </body>
 </html>
